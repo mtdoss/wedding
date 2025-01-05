@@ -1,4 +1,4 @@
-- name: "The Lodge"
+- name: "Lodge Geneva National"
   url: "https://www.thelodgeatgeneva.com/stay/lodging/room-types/"
   address1: "W4240 State Highway 50. Lake Geneva, WI 53147"
   phone: "262-245-7000"
@@ -7,7 +7,7 @@
   reserve_url: "XX"
 
 
-- name: "The Cove"
+- name: "The Cove of Lake Geneva"
   url: "https://www.coveoflakegeneva.com/"
   address1: "111 Center St, Lake Geneva, WI 53147"
   phone: "262-249-9460"

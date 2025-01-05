@@ -1,0 +1,79 @@
+<!-- <section class="container content&#45;section"> -->
+<!--   <div class="row justify&#45;content&#45;center"> -->
+<!--     <div class="col&#45;lg&#45;8"> -->
+<!--       <dl> -->
+<!--         {% for one in site.data.where&#45;to&#45;stay %} -->
+<!--           <dt><h3 class="faq&#45;question">{{ one.hotel }}</h3></dt> -->
+<!--           <dd><p class="faq&#45;answer">{{ one.info }}</p></dd> -->
+<!--         {% endfor %} -->
+<!--       </dl> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </section> -->
+
+<section class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-offset-2 col-lg-8">
+      <h2>Where to Stay</h2>
+      <p>
+        We have a couple room blocks for anyone traveling from out of town.
+      </p>
+      <p>
+        <strong>
+          Please note - rooms are only available through our room block for the following nights:
+          <br>
+          Friday, July 11
+          <br>
+          Saturday, July 12
+          <br>
+          Sunday, July 13
+        </strong>
+      </p>
+      <p>
+        The reservation links below will only allow you to book rooms for the above nights.
+        If you'd like to stay for any nights other than the ones listed, please call the hotel directly and
+        reference the <em>Hurt-Doss wedding</em>.
+      </p>
+      <div class="row">
+        {% for hotel in site.data.where-to-stay %}
+          <div class="col-sm-6 ">
+            {% include hotel_thumbnail.html hotel=hotel %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-offset-2 col-lg-8">
+      <h2>Additional options</h2>
+      <p>
+        There are also some great options that we don't have room blocks for.
+      </p>
+      <div class="row">
+        {% for hotel in site.data.additional-hotels %}
+          <div class="col-sm-6 ">
+            {% include hotel_thumbnail.html hotel=hotel %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="container content&#45;section"> -->
+<!--   <div class="row justify&#45;content&#45;center"> -->
+<!--     <div class="col&#45;lg&#45;8"> -->
+<!--       <dl> -->
+<!--         {% for one in site.data.additional&#45;hotels %} -->
+<!--           <dt><h3 class="faq&#45;question">{{ one.hotel }}</h3></dt> -->
+<!--           <dd><p class="faq&#45;answer">{{ one.info }}</p></dd> -->
+<!--         {% endfor %} -->
+<!--       </dl> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </section> -->
