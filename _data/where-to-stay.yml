@@ -1,0 +1,25 @@
+- name: "The Lodge"
+  url: "https://www.thelodgeatgeneva.com/stay/lodging/room-types/"
+  address1: "W4240 State Highway 50. Lake Geneva, WI 53147"
+  phone: "262-245-7000"
+  description: "The most convenient hotel, and where Angela and Mark will be staying!"
+  rate: "$439/night"
+  reserve_url: "XX"
+
+
+- name: "The Cove"
+  url: "https://www.coveoflakegeneva.com/"
+  address1: "111 Center St, Lake Geneva, WI 53147"
+  phone: "262-249-9460"
+  description: "Has multi-bedroom suites available! The block includes the Anchor Studio Suite, Belle Loft Suite, and Admiral Suite"
+  rate: "$379 - $599/night"
+  reserve_url: "XX"
+
+
+- name: "The Geneva Inn"
+  url: "https://www.genevainn.com/"
+  address1: "N2009 S Lake Shore Dr, Lake Geneva, WI 53147"
+  phone: "262-248-5680"
+  description: "The Geneva Inn is a little farther away from the wedding venues than the other options, but.. XXX"
+  rate: "$325 - $459/night"
+  reserve_url: "XX"
