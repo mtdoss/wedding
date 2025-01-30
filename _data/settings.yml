@@ -31,7 +31,7 @@ rsvp:
   no_modal_title: Thank You!
   yes_modal_body: We're glad that you're hanging out with us on our wedding day!
   no_modal_body: We really wish you could have made it, but we still love you. <span class="fa fa-heart"></span>
-  sms_followup_text: You'll receive a text confirmation shortly.
+    # sms_followup_text: You'll receive a text confirmation shortly.
 
   # Comment these out to disable
   song_text: What songs will get you dancing?
