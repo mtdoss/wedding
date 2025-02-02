@@ -3,9 +3,9 @@ theme: jekyll-theme-easy-wedding
 title: Angela & Mark
 email: mtdoss@gmail.com
   #url: https://wedding.mtdoss.com # Be sure to include http:// or https://
-url: "https://mtdoss.github.io/wedding"
+url: "https://mtdoss.github.io"
+baseurl: "/wedding"
 description: "We're getting married!!"
-baseurl: ""
 
 collections:
   stories:
