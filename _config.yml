@@ -2,7 +2,8 @@
 theme: jekyll-theme-easy-wedding
 title: Angela & Mark
 email: mtdoss@gmail.com
-url: https://wedding.mtdoss.com # Be sure to include http:// or https://
+  #url: https://wedding.mtdoss.com # Be sure to include http:// or https://
+url: "/wedding"
 description: "We're getting married!!"
 baseurl: ""
 
